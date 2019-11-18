@@ -13,5 +13,7 @@ import test2
 def test_answer():
     val = test2.addition(3,2)
     assert val == 5
+    
+def test_answer1():
     val2 = test2.addition(3,3)
-    assert val2 == 6
+    assert val2 == 5
